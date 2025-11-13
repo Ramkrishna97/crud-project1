@@ -1,0 +1,23 @@
+Basic crud app :-
+CRUD , to-do
+
+sample creation ,
+ search sample by details ,
+ delete sample
+
+ show details on task on sample as - pending , working , done...
+
+
+
+
+sample data :-
+{
+  "name": "Sample Task 1",
+  "description": "This is a description for Sample Task 1",
+  "createdAt": "2023-10-01T10:00:00"
+},
+{
+  "name": "Sample Task 2",
+  "description": "This is a description for Sample Task 2"
+  }
+
