@@ -9,7 +9,7 @@ sample creation ,
 
 
 
-
+................................................
 sample data :-
 {
   "name": "Sample Task 1",
@@ -20,4 +20,14 @@ sample data :-
   "name": "Sample Task 2",
   "description": "This is a description for Sample Task 2"
   }
+..........................................
+ API Endpoints:
+ http://localhost:8001/tasks
+ http://localhost:8001/tasks/all
+ http://localhost:8001/tasks/save
+ http://localhost:8001/tasks/find/{id}
+ http://localhost:8001/tasks/delete/{id}
+ http://localhost:8001/tasks/delete
+ ................................................
+ swagger -  http://localhost:8001/swagger-ui/index.html
 

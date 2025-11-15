@@ -30,7 +30,7 @@ public class TaskController {
     public void deleteTaskById(@PathVariable long id){
         service.deleteSampleById(id);
     }
-    @DeleteMapping("/all")
+    @DeleteMapping("/delete")
     public void deleteAllTasks(){
         service.deleteAllSamples();
     }
